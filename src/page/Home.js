@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 
+import TopHeader from '../organism/TopHeader'
 import Navbar from '../organism/Navbar'
 import Welcome from '../organism/Welcome'
 import ToolsSection from '../organism/ToolsSection'
@@ -17,6 +18,7 @@ import Footer from '../organism/Footer'
 export default function Home() {
     return (
         <Fragment>
+            <TopHeader />
             <Navbar searchVisible={false} />
             <Welcome />
             <ToolsSection />
