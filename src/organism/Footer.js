@@ -20,9 +20,8 @@ export default function Footer() {
     ]
 
     return (
-        <footer className="mx-auto px-6 py-10 bg-black text-white">
-            <div className="flex flex-col">
-
+        <footer className="mx-auto px-6 py-8 bg-black text-gray-300">
+            <div className="flex flex-col mt-6">
                 <div className="md:flex lg:justify-between">
                     <div className="flex mb-8 lg:w-1/2 lg:justify-around">
                         <ul className="pr-10 lg:ml-2">
@@ -92,8 +91,9 @@ export default function Footer() {
                         <div className="lg:mr-6">
                             <p className="uppercase tracking-wide font-bold mb-3">News Letter</p>
                             <div className="relative w-64">
-                                <input type="text" className="rounded-full w-64 pl-5 pr-32 py-3 text-gray-900 focus:outline-none" placeholder="Email" />
-                                <button className="rounded-full bg-blue-500 px-4 py-2 absolute right-0 mt-1 mr-1">Berlanggan</button>
+                                <input type="text" className="rounded-full w-64 pl-5 pr-36 py-3 text-gray-900 focus:outline-none" placeholder="Email" />
+                                <button className="rounded-full bg-blue-500 px-3 py-2 absolute right-0 mt-1 mr-1">Berlangganan</button>
+                                <p className="text-sm mt-2">Dapatkan promo dan konten menarik dari penyedia terbaik Anda.</p>
                             </div>
                         </div>
                         <div className="flex mt-4 lg:mt-8">
@@ -103,9 +103,8 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-
             </div>
-            <div className="flex flex-col text-xs lg:flex-row lg:justify-between lg:px-8">
+            <div className="mt-8 flex flex-col text-xs lg:flex-row lg:justify-between lg:px-8">
                 <ul className="mb-4">
                     <li className="mb-2">Copyright @2016 Niagahoster | Hosting powered by PHP7, CloudLinux, CloudFlare, BitNinja and DC Biznet Technovillage Jakarta</li>
                     <li>Cloud VPS Murah powered by Webuzo Softaculous, Intel SSD and cloud computing technology</li>

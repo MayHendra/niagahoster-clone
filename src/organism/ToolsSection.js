@@ -13,7 +13,7 @@ export default function ToolsSection() {
                     <figcaption className="mt-5 md:mt-12">PHP Zend Guard Loader</figcaption>
                 </figure>
                 <figure className="mt-10 flex flex-col items-center lg:mt-0">
-                    <img src={IconComposer} alt="Composer-Icon" className="w-48 md:w-32 lg:w-40" />
+                    <img src={IconComposer} alt="Composer-Icon" className="w-32" />
                     <figcaption className="mt-5">PHP Composer</figcaption>
                 </figure>
                 <figure className="mt-10 flex flex-col items-center lg:mt-0">

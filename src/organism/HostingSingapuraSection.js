@@ -14,7 +14,16 @@ export default function HostingSingapuraSection() {
                             <h3 className="border-b-2 font-black text-xl tracking-wide py-2">Bayi</h3>
                             <div className="border-b-2 font-normal mt-4">
                                 <p className="line-through">Rp 19.900</p>
-                                <p>Rp. <span className="text-4xl font-extrabold text-gray-800">14</span><span className="font-extrabold text-gray-800">.900</span>/ bln</p>
+                                <p>
+                                    <sup className="text-base">Rp.</sup>
+                                    <span className="text-5xl font-extrabold text-gray-800">
+                                        14
+                                    </span>
+                                    <span className="font-extrabold text-gray-800">
+                                        <sup className="text-base">.900</sup>
+                                    </span>
+                                    <sup className="text-base">/ bln</sup>
+                                </p>
                             </div>
                             <div className="border-b-2 py-2 mb-6">
                                 <p><span className="font-bold">938</span> pengguna terdaftar</p>
@@ -36,7 +45,16 @@ export default function HostingSingapuraSection() {
                             <h3 className="border-b-2 font-black text-xl tracking-wide py-2">Pelajar</h3>
                             <div className="border-b-2 font-normal mt-4">
                                 <p className="line-through">Rp 46.900</p>
-                                <p>Rp. <span className="text-4xl font-extrabold text-gray-800">23</span><span className="font-extrabold text-gray-800">.900</span>/ bln</p>
+                                <p>
+                                    <sup className="text-base">Rp.</sup>
+                                    <span className="text-5xl font-extrabold text-gray-800">
+                                        23
+                                    </span>
+                                    <span className="font-extrabold text-gray-800">
+                                        <sup className="text-base">.450</sup>
+                                    </span>
+                                    <sup className="text-base">/ bln</sup>
+                                </p>
                             </div>
                             <div className="border-b-2 py-2 mb-6">
                                 <p><span className="font-bold">4.168</span> pengguna terdaftar</p>
@@ -62,9 +80,18 @@ export default function HostingSingapuraSection() {
                             <h3 className="font-black text-xl tracking-wide py-2 text-white bg-blue-500">Personal</h3>
                             <div className="font-normal pt-4 bg-blue-500 text-white">
                                 <p className="line-through">Rp 58.900</p>
-                                <p>Rp. <span className="text-4xl font-extrabold">38</span><span className="font-extrabold">.900</span>/ bln</p>
+                                <p>
+                                    <sup className="text-base">Rp.</sup>
+                                    <span className="text-5xl font-extrabold">
+                                        38
+                                    </span>
+                                    <span className="font-extrabold">
+                                        <sup className="text-base">.900</sup>
+                                    </span>
+                                    <sup className="text-base">/ bln</sup>
+                                </p>
                             </div>
-                            <div className="bg-blue-600 py-2 mb-6 text-white">
+                            <div className="bg-blue-600 py-3 mb-6 text-white">
                                 <p><span className="font-bold">10.017</span> pengguna terdaftar</p>
                             </div>
                             <div>
@@ -88,7 +115,16 @@ export default function HostingSingapuraSection() {
                             <h3 className="border-b-2 font-black text-xl tracking-wide py-2">Bisnis</h3>
                             <div className="border-b-2 font-normal mt-4">
                                 <p className="line-through">Rp 109.900</p>
-                                <p>Rp. <span className="text-4xl font-extrabold text-gray-800">65</span><span className="font-extrabold text-gray-800">.900</span>/ bln</p>
+                                <p>
+                                    <sup className="text-base">Rp.</sup>
+                                    <span className="text-5xl font-extrabold text-gray-800">
+                                        65
+                                    </span>
+                                    <span className="font-extrabold text-gray-800">
+                                        <sup className="text-base">.900</sup>
+                                    </span>
+                                    <sup className="text-base">/ bln</sup>
+                                </p>
                             </div>
                             <div className="border-b-2 py-2 mb-6">
                                 <p><span className="font-bold">3.552</span> pengguna terdaftar</p>

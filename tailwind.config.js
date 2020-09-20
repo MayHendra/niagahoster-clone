@@ -8,8 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "black": "#2F2F2F",
+        "black": "#232323",
         "pure-black": "#1D1D1D",
+      },
+      spacing: {
+        "36": "9rem",
       }
     },
   },
